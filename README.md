@@ -11,7 +11,7 @@
     -   [Supported software versions](#supported-software-versions)
     -   [BRAKER2](#braker2)
         -   [Perl pipeline dependencies](#perl-pipeline-dependencies)
-        -   [BRAKER2 components](#Executability)
+        -   [BRAKER2 components](#braker2-components)
     -   [Bioinformatics software
         dependencies](#bioinformatics-software-dependencies)
         -   [Mandatory tools](#mandatory-tools)
@@ -67,10 +67,10 @@
     BRAKER2](#citing-braker2-and-software-called-by-braker2)
 -   [Licence](#licence)
 
-BRAKER2 User Guide {#braker2-user-guide .unnumbered}
+BRAKER2 User Guide
 ==================
 
-Authors and Contact Information {#authors-and-contact-information .unnumbered}
+Authors and Contact Information
 -------------------------------
 
 Katharina J. Hoff ([](mailto:katharina.hoff@uni-greifswald.de)), Simone
@@ -308,7 +308,7 @@ BRAKER2 also uses a Perl module `helpMod.pm` that is not available on
 CPAN. This module is part of the BRAKER2 release and does not require
 separate installation.
 
-### BRAKER2 components {#Executability}
+### BRAKER2 components
 
 BRAKER2 is a collection of Perl scripts and a Perl module. The main
 script that will be called in order to run BRAKER2 is `braker.pl`.
@@ -411,7 +411,7 @@ AUGUSTUS consists of `augustus`, the gene prediction tool, additional
 C++ tools located in\
 `augustus/auxprogs` and Perl scripts located in `augustus/scripts`. Perl
 scripts must be executable (see instructions in section
-\[Executability\].
+\[#braker2-components\].
 
 The C++ tool `bam2hints` is an essential component of BRAKER2. Sources
 are located in\
