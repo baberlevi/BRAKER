@@ -26,7 +26,7 @@
             distance](#prot-in)
         -   [BRAKER2 with RNA-Seq and protein
             data](#braker2-with-rna-seq-and-protein-data)
-    -   [Description of selected BRAKER2 command line options](#options)
+    -   [Description of selected BRAKER2 command line options](#description-of-selected-braker2-command-line-options)
         -   [–ab\_initio](#ab_initio)
         -   [–augustus\_args=–some\_arg=bla](#augustus_argssome_argbla)
         -   [–cores=INT](#coresint)
@@ -62,7 +62,7 @@
         (`text8.sh`)](#testing-braker2-with-genome-sequence-only-text8.sh)
 -   [Bug reporting](#bug-reporting)
     -   [Reporting bugs on github](#reporting-bugs-on-github)
-    -   [Common problems](#commonproblems)
+    -   [Common problems](#common-problems)
 -   [Citing BRAKER2 and software called by
     BRAKER2](#citing-braker2-and-software-called-by-braker2)
 -   [Licence](#licence)
@@ -411,7 +411,7 @@ AUGUSTUS consists of `augustus`, the gene prediction tool, additional
 C++ tools located in\
 `augustus/auxprogs` and Perl scripts located in `augustus/scripts`. Perl
 scripts must be executable (see instructions in section
-\[#braker2-components\].
+\[braker2-components\].
 
 The C++ tool `bam2hints` is an essential component of BRAKER2. Sources
 are located in\
@@ -833,7 +833,7 @@ result in a call similar to:
        --bam=file1.bam,file2.bam --prot_seq=proteins.fa \
        --prg=gth --gth2traingenes
 
-Description of selected BRAKER2 command line options {#options}
+Description of selected BRAKER2 command line options
 ----------------------------------------------------
 
 Please run `braker.pl –help` to obtain a full list of options.
@@ -1136,7 +1136,7 @@ Bug reporting
 
 Before reporting bugs, please check that you are using the most recent
 versions of AUGUSTUS and BRAKER. Also, check the list of *Common
-Problems* (see section \[commonproblems\]), before reporting bugs.
+Problems* (see section \[common-problems\]), before reporting bugs.
 
 Reporting bugs on github
 ------------------------
@@ -1202,7 +1202,7 @@ files will not be present if they did not contain any errors.
 -   `braker/yourSpecies/errors/augustus*.stderr` - contain AUGUSTUS
     execution errors
 
-Common problems {#commonproblems}
+Common problems
 ---------------
 
 -   *BRAKER complains that the RNA-Seq file does not correspond to the
